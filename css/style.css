@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
 
 
 *,
@@ -12,158 +11,49 @@
 
 
 h1, h2, h3,h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Ubuntu', sans-serif !important;
 
 }
+
+
 body {
-  font-family: 'Montserrat';
-  background-color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  background-color:#ffffff !important;
 }
 
-section {
-  margin: 0px;
-}
-
-.navbar {
-  background-color: #ffffff !important;
-  height: 12vh;
-}
-.navbar-brand img{
-  width: 50px !important;
-}
-
-.offcanvas {
-  background-color: #ffffff;
-}
-
-.dropdown-menu {
-  background-color: #ffffff !important;
-  border: none !important;
-}
-span .navbar-toggler-icon {
-  background-color: #02AFEF !important;
-}
-.navbar-toggler {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  transition: 0.5s ease-in-out;
-}
-
-.toggler-icon {
-  width: 100%;
-  height: 3px;
-  background-color: #02AFEF;
-  display: block;
-  position: absolute;
-  border-radius: 1px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: 0.25s ease-in-out;
-  border-radius: 10px;
-  margin-right: 100px !important;
-}
-
-/*when navigation is clicked*/
-.navbar-toggler .top-bar {
-  margin-top: 7px;
-  transform: rotate(0deg);
-}
-.navbar-toggler .middle-bar {
-  margin-top: 13.5px;
-  transform: rotate(0deg);
-}
-.navbar-toggler .bottom-bar {
-  margin-top: 0px;
-  transform: rotate(0deg);
-}
-/*state when navbar is collapsed*/
-.offcanvas-header .btn-close {
-  color: #02AFEF !important;
-}
-.nav-item {
-  margin-left: 20px !important;
-}
-.nav-link {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000000 !important;
-}
-.nav-link:hover {
-  color: #02AFEF !important ;
-}
 /***************HERO SECTION******************/
-#hero {
-  
-  background: rgb(236,0,140);
-background: linear-gradient(3600deg, rgba(236,0,140,0.29175420168067223) 17%, rgba(132, 203, 229, 0.404) 37%, rgba(255,255,255,1) 63%);
-  height: 100vh !important;
- 
+.hero-section{
+  background-color:#000000 !important;
+  background-image: url('../img/vertical-close-up-shot-open-book-pages-with-blurred.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #ffffff !important;
 }
-#hero h1{
-  
+.about p{
+  line-height: 35px !important;
 }
-#hero h1 span{
-color: #EC008C;
+.about img{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px !important;
 }
-#hero p {
-  font-size: 1rem;
-}
-#hero .Explore-btn {
-  color: #ffffff;
-  width: 197px;
-  height: 57px;
-  padding: 15px;
-  background: #02AFEF;
-  border-radius: 4px;
-  text-decoration: none !important;
-}
-#hero .Explore-btn:hover{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
-}
-.commitment div.cont{
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  height: 80px !important;
-  padding: 20px !important;
-  background-color: #ffffff;
-}
-.commitment div.cont i{
-  font-size: 30px;
+.services h1 span{
   color: #EC008C;
 }
-.commitment p{
-  line-height: 30px;
+.services .card{
+  -webkit-border-top-right-radius: 50px;
+-webkit-border-bottom-left-radius: 50px;
+-moz-border-radius-topright: 50px;
+-moz-border-radius-bottomleft: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+padding: 30px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-#ready div.box{
-  height: 300px !important;
-  width: 100% !important;
-  border: 0px;
-  padding: 60px;
-  border-style: ridge;
-  background-color: #02AFEF !important;
-  border-radius: 40px;
-
+.services .card i{
+  font-size: 50px !important;
+  color: #EC008C;
 }
-#ready .get-btn {
-  color: #ffffff;
-  width: 190px;
-  height: 57px;
-  padding: 15px;
-  background: #EC008C;
-  border-radius: 4px;
-  text-decoration: none !important;
-}
-#ready .get-btn:hover{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
-}
-/***************HERO SECTION ENDS******************/
-
-/***************GLAD YOU TOOK THE BOLD STEP ******************/
 
 /********** RESPONSIVENESS **********/
 
