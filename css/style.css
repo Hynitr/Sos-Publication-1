@@ -58,8 +58,12 @@ padding: 30px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .services .card i{
-  font-size: 50px !important;
+  font-size: 60px !important;
   color: #00AEEF;
+  margin-bottom: 20px !important;
+  text-align: start !important;
+  padding-left: 10px !important;
+  
 }
 .commitment h1 span{
   color: #00AEEF;
@@ -129,6 +133,8 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .footer i {
   margin-right: 10px;
+  font-size: 20px;
+  color: #00AEEF;
 }
 
 
