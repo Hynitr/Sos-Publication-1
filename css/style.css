@@ -14,7 +14,9 @@ h1, h2, h3,h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif !important;
 
 }
-
+p{
+  font-size: 20px !important;
+}
 
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -23,7 +25,6 @@ body {
 
 /***************HERO SECTION******************/
 .hero-section{
-  background-color:#000000 !important;
   background-image: url('../img/vertical-close-up-shot-open-book-pages-with-blurred.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,6 +55,22 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   font-size: 50px !important;
   color: #EC008C;
 }
+.commitment h1 span{
+  color: #00AEEF;
+}
+.commitment p{
+  line-height: 35px;
+}
+
+.commitment .box{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.commitment .box i{
+  font-size: 30px;
+  color:#00AEEF ;
+}
+
 
 /********** RESPONSIVENESS **********/
 
@@ -63,18 +80,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   
 
  
-  .hero a.btn {
-    display: flex !important;
-    justify-content: center !important;
-  }
-  .hero .button {
-    display: flex !important;
-    justify-content: center !important;
-  }
-  .hero img {
-    float: inline-start;
-  }
-
+  
   /* For 640 Resolution - mobile */
   @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
   }
