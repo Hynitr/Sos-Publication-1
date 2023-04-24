@@ -15,7 +15,7 @@ h1, h2, h3,h4, h5, h6 {
 
 }
 p{
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 
 body {
@@ -31,6 +31,12 @@ body {
   height: 100vh;
   color: #ffffff !important;
 }
+.hero-section h1 span{
+  color: #EC008C;
+}
+.about h1 span{
+  color: #00AEEF;
+}
 .about p{
   line-height: 35px !important;
 }
@@ -39,7 +45,7 @@ body {
   border-radius: 30px !important;
 }
 .services h1 span{
-  color: #EC008C;
+  color: #00AEEF;
 }
 .services .card{
   -webkit-border-top-right-radius: 50px;
@@ -53,7 +59,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .services .card i{
   font-size: 50px !important;
-  color: #EC008C;
+  color: #00AEEF;
 }
 .commitment h1 span{
   color: #00AEEF;
@@ -74,7 +80,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-top: 80px !important;
   height: 50vh !important;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  background-color: #f5f5f5;
+  background-color: #00AEEF;
   color: #000;
   padding: 40px;
   border-radius: 30px;
@@ -86,6 +92,45 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 20px;
   margin-top: 20px;
 }
+.footer {
+  background-color:#f5f5f5 !important;
+  padding: 40px 0;
+  color: #000;
+}
+
+
+
+
+.footer .footer-link{
+  color: #000;
+  text-decoration: none;
+  font-size: 1.1rem !important;
+}
+
+
+.footer p {
+  margin-bottom: 20px;
+  line-height: 1.8rem !important;
+  font-size: 1rem !important;
+}
+
+.footer h1 {
+
+  color: #EC008C !important;
+}
+
+.footer img {
+  margin-top: 20px;
+  width: 50px;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+.footer i {
+  margin-right: 10px;
+}
+
 
 
 /********** RESPONSIVENESS **********/
